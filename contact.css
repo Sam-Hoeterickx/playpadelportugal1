@@ -1,0 +1,272 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    color: #000000;
+    font-family: 'Roboto';
+    background-color: #EBE9EB;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+}
+@media(max-width: 1024px){
+    h2{
+        font-size: 12pt;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .logo{
+        grid-column: 1 / 15;
+        grid-row: 1;
+        display: inline-block;
+        margin: auto;
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+    .navigation{
+        grid-column: 2 / 14;
+        grid-row: 2;
+        font-weight: 300;
+        margin: auto;
+    }
+    .navigation ul li{
+        float: right;
+        list-style-type: none;
+        margin-left: 5px;
+        padding:0 0 0 5px;
+    }
+    .navigation a{
+        text-decoration: none;
+        color: #000000;
+        text-align: center;
+    } 
+    #Contact{
+        border-radius: 25px;
+        background-color: #2C60CB ;
+        padding: 10px 28px;
+        color: #EBE9EB;
+    }
+    
+    #navigation-home-ball{
+        height: 20px;
+        visibility: hidden;
+    }
+    #navigation-galerij-ball{
+        height: 20px;
+        visibility: hidden;
+    }
+
+    .booking-form{
+        grid-column: 1 / 15;
+        grid-row: 3;
+        color: #FFF;
+        background-color: #2C60CB;
+        padding: 25px 10%;
+    }
+    .booking-form p{
+        text-align: center;
+        margin: 32px 0 64px 0;
+    }
+    input{
+        width: 100%;
+        height: 25px;
+        border: none;
+        border-bottom: 2px solid #EBE9EB;
+        color: #FFF;
+        background-color: #2C60CB;
+    }
+    textarea{
+        width: 100%;
+        height: 75px;
+        border: none;
+        border-bottom: 2px solid #EBE9EB;
+        color: #FFF;
+        background-color: #2C60CB;
+    }
+    #submitbutton{
+        border: 2px solid #EBE9EB;
+        border-radius: 25px;
+        background-color: #EBE9EB ;
+        color: #2C60CB;
+        padding: 10px 28px;
+        margin-left: 42%;
+    }
+    .footer{
+        margin-top: 64px;
+        grid-column: 1 / 15;
+        grid-row: 4;
+        padding: 32px 0;
+        background-color:#2C60CB ;
+    }
+    .footer ul li{
+        list-style-type: none;
+        margin-left: 10px;
+        padding: 15px 0 0 38px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #EBE9EB;;
+    } 
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .footer-info{
+        grid-column: 12 / 13;
+        text-align: right;
+    }
+    .footer-name{
+        grid-column: 3 / 7;
+    }
+    .footer-name img{
+        width: 100%;
+    }
+}
+@media(min-width: 1024px){
+    
+    h2{
+        font-size: 12pt;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .logo{
+        grid-column: 2 / 5;
+        grid-row: 1;
+        display: inline-block;
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+    .navigation{
+        grid-column: 8 / 14;
+        grid-row: 1;
+        font-weight: 300;
+    }
+    .navigation ul li{
+        float: right;
+        list-style-type: none;
+        margin-left: 10px;
+        padding: 35px 0 0 4%;
+    }
+    .navigation a{
+        text-decoration: none;
+        color: #000000;
+    } 
+    #Contact{
+        border-radius: 25px;
+        background-color: #2C60CB ;
+        padding: 10px 28px;
+        color: #EBE9EB;
+    }
+
+    #navigation-home-ball{
+        height: 20px;
+        margin: 0 10px;
+        visibility: hidden;
+    }
+    #navigation-galerij-ball{
+        height: 20px;
+        margin: 0 13px;
+        visibility: hidden;
+    }
+    .hero-contact-text{
+        grid-column: 5 / 11;
+        grid-row: 2;
+    }
+    .hero-contact-text p{
+        text-align: center;
+    }
+    .booking-form{
+        grid-column: 5 / 11;
+        grid-row: 3;
+    }
+    .booking-form{
+        grid-column: 1 / 15;
+        grid-row: 3;
+        color: #FFF;
+        background-color: #2C60CB;
+        padding: 25px 370px;
+    }
+    .booking-form p{
+        text-align: center;
+        margin: 32px 0 64px 0;
+    }
+    input{
+        width: 100%;
+        height: 25px;
+        border: none;
+        border-bottom: 2px solid #EBE9EB;
+        color: #FFF;
+        background-color: #2C60CB;
+    }
+    textarea{
+        width: 100%;
+        height: 75px;
+        border: none;
+        border-bottom: 2px solid #EBE9EB;
+        color: #FFF;
+        background-color: #2C60CB;
+    }
+    #submitbutton{
+        border: 2px solid #EBE9EB;
+        border-radius: 25px;
+        background-color: #EBE9EB ;
+        padding: 10px 58px;
+        color: #2C60CB;
+        margin-left: 42%;
+    }  
+    .footer{
+        margin-top: 114px;
+        grid-column: 1 / 15;
+        grid-row: 4;
+        padding: 32px 0;
+        background-color:#2C60CB ;
+    }
+    .footer ul li{
+        list-style-type: none;
+        margin-left: 10px;
+        padding: 15px 0 0 38px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #EBE9EB;;
+    } 
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .footer-info{
+        grid-column: 12 / 13;
+        text-align: right;
+    }
+    .footer-name{
+        grid-column: 3 / 5;
+    }
+    .footer-name img{
+        width: 65%;
+    }
+}

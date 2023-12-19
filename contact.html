@@ -28,61 +28,77 @@
         </div>
 
         <div class="booking-form">
-            <div class="booking-form-grid">
-                <p>Voor reservering of meer informatie, gelieve onderstaand formulier in te vullen.</p>
-                <form name="contact" method="POST" data-netlify="true" onSubmit="submit"> 
-                    <label for="name">Voornaam</label>
-                    <input type="text" class="form-control" id="name" name="name">
-                    <br>
-                    <br>
-                    <label for="name">Achternaam</label>
-                    <input type="text" class="form-control" id="achternaam" name="achternaam">
-                    <br>
-                    <br>
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" name="email" >
-                    <br>
-                    <br>
-                    <label for="adres">Adres</label>
-                    <input type="text" class="form-control" id="adres" name="adres">
-                    <br>
-                    <br>
-                    <label for="gsm">GSM</label>
-                    <input type="text" class="form-control" id="gsm" name="gsm">
-                    <br>
-                    <br>
-                    <label for="datumVerblijf">Datum verblijf</label>
-                    <input type="text" class="form-control" id="datumVerblijf" name="datumVerblijf">
-                    <br>
-                    <br>
-                    <label for="aantalPersonen">Hoeveel personen</label>
-                    <input type="text" class="form-control" id="aantalPersonen" name="aantalPersonen">
-                    <br>
-                    <br>
-                    <Label>Niveau ()</Label>
-                    <br>
-                    <label for="niveauP100">P100</label>
-                    <input type="text" class="form-control" id="niveauP100" name="niveauP100">
-                    <label for="niveauP200">P200</label>
-                    <input type="text" class="form-control" id="niveauP200" name="niveauP200">
-                    <label for="niveauP300">P300</label>
-                    <input type="text" class="form-control" id="niveauP300" name="niveauP300">
-                    <label for="niveauP400">P400</label>
-                    <input type="text" class="form-control" id="niveauP400" name="niveauP400">
-                    <label for="niveauP500">P500</label>
-                    <input type="text" class="form-control" id="niveauP500" name="niveauP500">
-
-
-
-
-                    <label for="bericht">Bericht</label>
-                    <textarea type="text" class="form-control" id="bericht" name="bericht"></textarea>
-                    <br>
-                    <br>
-                    <button id="submitbutton" type="submit" class="btn btn-primary mt-3">Send</button>
-                    
-                </form> 
+            <div class="formulier">
+                <div class="booking-form-tekst">
+                    <h2>Voor reservering of meer informatie, gelieve onderstaand formulier in te vullen.</h2>
+                </div>
+                <div class="form">
+                    <form name="contact" method="POST" data-netlify="true" onSubmit="submit"> 
+                        <div class="form-grid">
+                            <div class="voornaam">
+                                <label for="name">Voornaam</label>
+                                <input placeholder="Voornaam" type="text" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="achternaam">
+                                <label for="name">Achternaam</label>
+                                <input placeholder="Achternaam" type="text" class="form-control" id="achternaam" name="achternaam">
+                            </div>
+                            <div class="email">
+                                <label for="inputEmail">Email</label>
+                                <input placeholder="email" type="email" class="form-control" id="inputEmail" name="email" >
+                            </div>
+                            <div class="adres">
+                                <label for="adres">Adres</label>
+                                <input placeholder="Adres" type="text" class="form-control" id="adres" name="adres">
+                            </div>
+                            <div class="gsm">
+                                <label for="gsm">GSM</label>
+                                <input placeholder="gsm-nummer" type="text" class="form-control" id="gsm" name="gsm">
+                            </div>
+                            <div class="datum">
+                                <label for="datumVerblijf">Datum verblijf</label>
+                                <input placeholder="van ... tot ..." type="text" class="form-control" id="datumVerblijf" name="datumVerblijf">
+                            </div>
+                            <div class="personen">
+                                <label for="aantalPersonen">Hoeveel personen</label>
+                                <input placeholder="bv: 3" type="text" class="form-control" id="aantalPersonen" name="aantalPersonen">
+                            </div>
+                            <div class="niveau-tekst">
+                                <Label>Niveau <span>(gelieve het aantal personen onder het juiste padelniveau te plaatsen)</span></Label>
+                            </div>
+                            <div class="niveau-100">
+                                <label for="niveauP100">P100</label>
+                                <input placeholder="bv: 2" type="text" class="form-control" id="niveauP100" name="niveauP100">
+                            </div>
+                            <div class="niveau-200">
+                                <label for="niveauP200">P200</label>
+                                <input placeholder="bv: 3" type="text" class="form-control" id="niveauP200" name="niveauP200">
+                            </div>
+                            <div class="niveau-300">
+                                <label for="niveauP300">P300</label>
+                                <input placeholder="bv: 0" type="text" class="form-control" id="niveauP300" name="niveauP300">
+                            </div>
+                            <div class="niveau-400">
+                                <label for="niveauP400">P400</label>
+                                <input placeholder="bv: 1" type="text" class="form-control" id="niveauP400" name="niveauP400">
+                            </div>
+                            <div class="niveau-500">
+                                <label for="niveauP500">P500</label>
+                                <input placeholder="bv: 1" type="text" class="form-control" id="niveauP500" name="niveauP500">
+                            </div>
+                            <div class="bericht">
+                                <label for="bericht">Bericht</label>
+                                <textarea placeholder="(optioneel, extra info?)" type="text" class="form-control" id="bericht" name="bericht"></textarea>
+                            </div>
+                            <div class="btn-send">
+                                <button id="submitbutton" type="submit" class="btn btn-primary mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
             </div>
+                
+                
         </div>
         <div class="footer">
             <div class="footer-grid">

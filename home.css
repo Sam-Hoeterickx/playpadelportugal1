@@ -358,11 +358,11 @@ body{
     }
     .footer-playpadelportugal{
         grid-column: 6 / 10;
-        grid-row: 2;
+        grid-row: 3;
     }
     .footer-playpadelportugal p{
         text-align: center;
-        font-size: 10pt;
+        font-size: 6pt;
     }
 /*      .footer-quote{
         grid-column: 7 / 9;

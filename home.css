@@ -356,6 +356,14 @@ body{
     .footer-name img{
         width: 100%;
     }
+    .footer-playpadelportugal{
+        grid-column: 6 / 10;
+        grid-row: 2;
+    }
+    .footer-playpadelportugal p{
+        text-align: center;
+        font-size: 10pt;
+    }
 /*      .footer-quote{
         grid-column: 7 / 9;
         padding: 32px 0 32px 15px;
@@ -734,5 +742,13 @@ body{
     }
     .footer-name img{
         width: 65%;
+    }
+    .footer-playpadelportugal{
+        grid-column: 6 / 10;
+        grid-row: 2;
+    }
+    .footer-playpadelportugal p{
+        text-align: center;
+        font-size: 10pt;
     }
 }

@@ -121,10 +121,21 @@ body{
         grid-column: 1 / 10;
         grid-row: 9;
     }
-
     .picture10{
         grid-column: 1 / 10;
         grid-row: 1;
+    }
+    .picture11{
+        grid-column: 1 / 10;
+        grid-row: 11;
+    }
+    .picture12{
+        grid-column: 1 / 10;
+        grid-row: 12;
+    }
+    .picture13{
+        grid-column: 1 / 10;
+        grid-row: 13;
     }
     .footer{
         margin-top: 114px;

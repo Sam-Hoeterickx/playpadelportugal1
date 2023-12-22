@@ -175,7 +175,7 @@ body{
         grid-auto-rows: minmax(50px, auto);
     }
     .footer-info{
-        grid-column: 12 / 13;
+        grid-column: 8 / 13;
         text-align: right;
     }
     .footer-name{
@@ -357,7 +357,7 @@ body{
         padding: 24px 0;
     }
     .btn-send{
-        grid-column: 1 / 13 ;
+        grid-column:  6 /  8 ;
         grid-row: 7;
         padding: 24px 0;
     }
@@ -383,7 +383,6 @@ body{
         background-color: #EBE9EB ;
         padding: 10px 58px;
         color: #2C60CB;
-        margin: 0 auto;
     }  
     .footer{
         margin-top: 114px;
@@ -408,7 +407,7 @@ body{
         grid-auto-rows: minmax(50px, auto);
     }
     .footer-info{
-        grid-column: 12 / 13;
+        grid-column: 11 / 13;
         text-align: right;
     }
     .footer-name{
@@ -418,11 +417,12 @@ body{
         width: 65%;
     }
     .footer-playpadelportugal{
-        grid-column: 6 / 10;
+        grid-column: 7 / 9;
         grid-row: 2;
     }
     .footer-playpadelportugal p{
         text-align: center;
+        margin: 0 auto;
         font-size: 10pt;
     }
 }

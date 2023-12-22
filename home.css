@@ -763,7 +763,7 @@ body{
     }
     .footer a{
         text-decoration: none;
-        color: #EBE9EB;
+        color: #EBE9EB;;
     } 
     .footer-grid{
         display: grid;
@@ -772,7 +772,7 @@ body{
         grid-auto-rows: minmax(50px, auto);
     }
     .footer-info{
-        grid-column: 12 / 13;
+        grid-column: 11 / 13;
         text-align: right;
     }
     .footer-name{
@@ -782,11 +782,12 @@ body{
         width: 65%;
     }
     .footer-playpadelportugal{
-        grid-column: 6 / 10;
+        grid-column: 7 / 9;
         grid-row: 2;
     }
     .footer-playpadelportugal p{
         text-align: center;
+        margin: 0 auto;
         font-size: 10pt;
     }
 }

@@ -150,7 +150,7 @@ body{
         background-color: #EBE9EB ;
         color: #2C60CB;
         padding: 10px 28px;
-        margin-left: 42%;
+        margin: 0 auto;
     }
     .footer{
         margin-top: 64px;
@@ -383,7 +383,7 @@ body{
         background-color: #EBE9EB ;
         padding: 10px 58px;
         color: #2C60CB;
-        margin-left: 42%;
+        margin: 0 auto;
     }  
     .footer{
         margin-top: 114px;

@@ -91,7 +91,7 @@ body{
     .gsm{
         padding: 24px 0;
     }
-    .adres{
+    .club{
         padding: 24px 0;
     }
     .datum{
@@ -297,7 +297,7 @@ body{
         grid-row: 2;
         padding: 24px 0;
     }
-    .adres{
+    .club{
         grid-column: 1 / 7 ;
         grid-row: 3;
         padding: 24px 0;

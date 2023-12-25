@@ -365,12 +365,45 @@ body{
         grid-row: 6;
         padding-left: 54.888px;
     }
-     
     .footer{
-        margin-top: 114px;
+        margin-top: 64px;
         grid-column: 1 / 15;
-        grid-row: 3;
+        grid-row: 8;
         padding: 32px 0;
         background-color:#2C60CB ;
+    }
+    .footer ul li{
+        list-style-type: none;
+        margin-left: 10px;
+        padding: 15px 0 0 38px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #EBE9EB;;
+    } 
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .footer-info{
+        grid-column: 11 / 13;
+        text-align: right;
+    }
+    .footer-name{
+        grid-column: 3 / 5;
+    }
+    .footer-name img{
+        width: 65%;
+    }
+    .footer-playpadelportugal{
+        grid-column: 7 / 9;
+        grid-row: 2;
+    }
+    .footer-playpadelportugal p{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 10pt;
     }
 }

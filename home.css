@@ -335,7 +335,7 @@ body{
      }
      .button-galerij{
         grid-column: 2 / 4 ;
-        padding: 0 20px;
+        padding: 10px 20px;
     }
     .button-galerij h2{
         text-align: center;

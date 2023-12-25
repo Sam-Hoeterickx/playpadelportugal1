@@ -127,18 +127,38 @@ body{
     }
     .picture11{
         grid-column: 1 / 10;
-        grid-row: 11;
+        grid-row: 16;
     }
     .picture12{
         grid-column: 1 / 10;
-        grid-row: 12;
+        grid-row: 18;
     }
     .picture13{
         grid-column: 1 / 10;
+        grid-row: 14;
+    }
+    .picture14{
+        grid-column: 1 / 10;
         grid-row: 13;
     }
+    .picture15{
+        grid-column: 1 / 10;
+        grid-row: 17;
+    }
+    .picture16{
+        grid-column: 1 / 10;
+        grid-row: 15;
+    }
+    .picture17{
+        grid-column: 1 / 10;
+        grid-row: 11;
+    }
+    .picture18{
+        grid-column: 1 / 10;
+        grid-row: 12;
+    }
     .footer{
-        margin-top: 114px;
+        margin-top: 64px;
         grid-column: 1 / 15;
         grid-row: 4;
         padding: 32px 0;
@@ -160,7 +180,7 @@ body{
         grid-auto-rows: minmax(50px, auto);
     }
     .footer-info{
-        grid-column: 12 / 13;
+        grid-column: 8 / 13;
         text-align: right;
     }
     .footer-name{
@@ -338,13 +358,11 @@ body{
     .picture17{
         grid-column: 2 / 6;
         grid-row: 6;
-/*         padding-top: 124px; */
         padding-left: 48.888px;
     }
     .picture18{
         grid-column: 5 / 9;
         grid-row: 6;
-/*         padding-top: 124px; */
         padding-left: 54.888px;
     }
      
@@ -355,38 +373,4 @@ body{
         padding: 32px 0;
         background-color:#2C60CB ;
     }
-}
-.footer ul li{
-    list-style-type: none;
-    margin-left: 10px;
-    padding: 15px 0 0 38px;
-}
-.footer a{
-    text-decoration: none;
-    color: #EBE9EB;;
-} 
-.footer-grid{
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
-}
-.footer-info{
-    grid-column: 11 / 13;
-    text-align: right;
-}
-.footer-name{
-    grid-column: 3 / 5;
-}
-.footer-name img{
-    width: 65%;
-}
-.footer-playpadelportugal{
-    grid-column: 7 / 9;
-    grid-row: 2;
-}
-.footer-playpadelportugal p{
-    text-align: center;
-    margin: 0 auto;
-    font-size: 10pt;
 }

@@ -27,106 +27,79 @@
                 </a></li>
             </ul>
         </div>
-
-        <!-- <div class="booking-form">
-            <div class="formulier">
-                <div class="booking-form-tekst">
-                    <h2>Voor reservering of meer informatie, gelieve onderstaand formulier in te vullen.</h2>
-                </div>
-                <div class="form">
-                    <form name="contact" method="POST" data-netlify="true" onSubmit="submit"> 
-                        <div class="form-grid">
-                            <div class="voornaam">
-                                <label for="name">Voornaam</label>
-                                <input placeholder="Voornaam" type="text" class="form-control" id="name" name="name">
-                            </div>
-                            <div class="achternaam">
-                                <label for="name">Achternaam</label>
-                                <input placeholder="Achternaam" type="text" class="form-control" id="achternaam" name="achternaam">
-                            </div>
-                            <div class="email">
-                                <label for="inputEmail">Email</label>
-                                <input placeholder="email" type="email" class="form-control" id="inputEmail" name="email" >
-                            </div>
-                            <div class="padelclub">
-                                <label for="club">Lidmaatschap Padelclub</label>
-                                <input placeholder="Padelclub" type="text" class="form-control" id="club" name="club">
-                            </div>
-                            <div class="gsm">
-                                <label for="gsm">GSM</label>
-                                <input placeholder="gsm-nummer" type="text" class="form-control" id="gsm" name="gsm">
-                            </div>
-                            <div class="datum">
-                                <label for="datumVerblijf">Datum verblijf</label>
-                                <input placeholder="van ... tot ..." type="text" class="form-control" id="datumVerblijf" name="datumVerblijf">
-                            </div>
-                            <div class="personen">
-                                <label for="aantalPersonen">Hoeveel personen</label>
-                                <input placeholder="bv: 3" type="text" class="form-control" id="aantalPersonen" name="aantalPersonen">
-                            </div>
-                            <div class="niveau-tekst">
-                                <Label>Niveau <span>(gelieve het aantal personen onder het juiste padelniveau te plaatsen)</span></Label>
-                            </div>
-                            <div class="niveau-50">
-                                <label for="niveauP100">P50</label>
-                                <input placeholder="bv: 1" type="text" class="form-control" id="niveauP50" name="niveauP50">
-                            </div>
-                            <div class="niveau-100">
-                                <label for="niveauP100">P100</label>
-                                <input placeholder="bv: 2" type="text" class="form-control" id="niveauP100" name="niveauP100">
-                            </div>
-                            <div class="niveau-200">
-                                <label for="niveauP200">P200</label>
-                                <input placeholder="bv: 3" type="text" class="form-control" id="niveauP200" name="niveauP200">
-                            </div>
-                            <div class="niveau-300">
-                                <label for="niveauP300">P300</label>
-                                <input placeholder="bv: 0" type="text" class="form-control" id="niveauP300" name="niveauP300">
-                            </div>
-                            <div class="niveau-400">
-                                <label for="niveauP400">P400</label>
-                                <input placeholder="bv: 1" type="text" class="form-control" id="niveauP400" name="niveauP400">
-                            </div>
-                            <div class="niveau-500">
-                                <label for="niveauP500">P500</label>
-                                <input placeholder="bv: 1" type="text" class="form-control" id="niveauP500" name="niveauP500">
-                            </div>
-                            <div class="bericht">
-                                <label for="bericht">Bericht</label>
-                                <textarea placeholder="(optioneel, extra info?)" type="text" class="form-control" id="bericht" name="bericht"></textarea>
-                            </div>
-                            <div class="btn-send">
-                                <button id="submitbutton" type="submit" class="btn btn-primary mt-3">Send</button>
-                            </div>
-                        </div>
-                    </form> 
-                </div>
-            </div>
-                
-                
-        </div> -->
-
-
         <div class="test-form">
-            <form id="contact-form" method="POST" action="sendmail.php">
-                <div class="form-row form-error" style="display:none;"></div>
-                <div class="form-row">
-                  <label for="contact-form-name">Name:</label>
-                  <input id="contact-form-name" class="form-input" type="text" name="name" required>
+            <form action="#">
+                <div class="form-grid">
+                    <div class="booking-form-tekst">
+                        <h2>Voor reservering of meer informatie, gelieve onderstaand formulier in te vullen.</h2>
+                    </div>
+                    <div class="form-row form-error" style="display:none;"></div>
+                    <div class="form-row-name">
+                      <label for="contact-form-name">Naam</label>
+                      <input id="contact-form-name" class="form-input" type="text" name="name" >
+                    </div>
+                    <div class="form-row-lastname">
+                        <label for="contact-form-lastname">Achternaam</label>
+                        <input id="contact-form-lastname" class="form-input" type="text" name="lastname" >
+                    </div>
+                    <div class="form-row-email">
+                      <label for="contact-form-email">Email</label>
+                      <input id="contact-form-email" class="form-input" type="email" name="email" >
+                    </div>
+                    <div class="form-row-phone">
+                      <label for="contact-form-phone">GSM</label>
+                      <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                    </div>
+                    <div class="form-row-date">
+                        <label for="contact-form-date">Datum verblijf:</label>
+                        <input placeholder="van ../../.... tot ../../...." id="contact-form-date" class="form-input" type="tel" name="date">
+                    </div>
+                    <div class="form-row-persons">
+                        <label for="contact-form-persons">Aantal Personen</label>
+                        <input id="contact-form-persons" class="form-input" type="tel" name="persons">
+                    </div>
+                    <div class="form-row-club">
+                        <label for="contact-form-club">Lidmaatschap padelclub</label>
+                        <input id="contact-form-club" class="form-input" type="text" name="club" >
+                    </div>
+                    <div class="niveau-tekst">
+                        <Label>Niveau <span>(gelieve het aantal personen onder het juiste padelniveau te plaatsen)</span></Label>
+                    </div>
+                    <div class="form-row-p50">
+                        <label for="contact-form-p50">P50</label>
+                        <input placeholder="bv. 2" id="contact-form-p50" class="form-input" type="text" name="p50" >
+                    </div>
+                    <div class="form-row-p100">
+                        <label for="contact-form-p100">P100</label>
+                        <input placeholder="bv. 0" id="contact-form-p100" class="form-input" type="text" name="p100" >
+                    </div>
+                    <div class="form-row-P200">
+                        <label for="contact-form-p200">P200</label>
+                        <input placeholder="bv. 3" id="contact-form-p200" class="form-input" type="text" name="p200" >
+                    </div>
+                    <div class="form-row-p300">
+                        <label for="contact-form-p300">P300</label>
+                        <input placeholder="bv. 0" id="contact-form-p300" class="form-input" type="text" name="p300" >
+                    </div>
+                    <div class="form-row-p400">
+                        <label for="contact-form-p400">P400</label>
+                        <input placeholder="bv. 0" id="contact-form-p400" class="form-input" type="text" name="p400" >
+                    </div>
+                    <div class="form-row-p500">
+                        <label for="contact-form-p500">P500</label>
+                        <input placeholder="bv. 1" id="contact-form-p500" class="form-input" type="text" name="p500" >
+                    </div>
+                    <div class="form-row-message">
+                      <label for="contact-form-message">Bericht</label>
+                      <textarea placeholder="Optioneel ,extra info?" id="contact-form-message" class="form-input" name="message" ></textarea>
+                    </div>
+                    <div class="button">
+                        <button id="submitbutton" class="btn-send" type="submit"><p>Send</p></button>
+                    </div>
+
+                    
                 </div>
-                <div class="form-row">
-                  <label for="contact-form-email">Email:</label>
-                  <input id="contact-form-email" class="form-input" type="email" name="email" required>
-                </div>
-                <div class="form-row">
-                  <label for="contact-form-phone">Phone:</label>
-                  <input id="contact-form-phone" class="form-input" type="tel" name="phone">
-                </div>
-                <div class="form-row">
-                  <label for="contact-form-message">Message:</label>
-                  <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
+                
               </form>
         </div>
         <div class="footer">
@@ -142,10 +115,12 @@
                     </ul>
                 </div>
                 <div class="footer-playpadelportugal">
-                    <p>©2024 Play Padel Portugal</p>
+                    <p>Â©2024 Play Padel Portugal</p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>></script>
 </body>
 </html>
